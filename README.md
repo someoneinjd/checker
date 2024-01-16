@@ -16,14 +16,14 @@
 * `-u`/`--uid`: 学号
 * `-p`/`--password`: 统一身份认证登录的密码
 * `-m`/`--mail`: 邮箱
-* `-mp`/`--mail-password`: 邮箱密码
+* `-mp`/`--mail_password`: 邮箱密码
 * `-s`/`--server`: 邮箱 SMTP 服务器地址 （默认为科大邮箱 `mail.ustc.edu.cn`）
 * `-po`/`--port`: 邮箱 SMTP 服务端口 （默认为 465）
 
 示例如下
 
 ```python
-python3 checker.py --uid SA114514 --password 1919810 --mail username@mail.ustc.edu.cn --mail-password 123456
+python3 checker.py --uid SA114514 --password 1919810 --mail username@mail.ustc.edu.cn --mail_password 123456
 ```
 
 ### 配置文件
